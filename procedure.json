@@ -1,0 +1,36 @@
+Procedure (cirugia del 15 enero 2024)
+
+{
+  "resourceType": "Procedure",
+  "id": "cirugia-lca-juan-2024",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/HC-2024-001"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "444798002",
+        "display": "Reconstrucción ligamento cruzado anterior"
+      }
+    ]
+  },
+  "performedDateTime": "2024-01-15",
+  "bodySite": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "6757004",
+          "display": "Rodilla derecha"
+        }
+      ]
+    }
+  ],
+  "note": [
+    {
+      "text": "Injerto isquiotibiales (semitendinoso + grácil), técnica anteromedial. Meniscectomía parcial medial asociada."
+    }
+  ]
+}
