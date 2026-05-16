@@ -1,0 +1,80 @@
+{
+  "resourceType": "Observation",
+  "id": "rom-rodilla-semana8-juan",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "exam",
+          "display": "Exam"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "36585-7",
+        "display": "Range of motion of Joint"
+      }
+    ],
+    "text": "Rango de movimiento rodilla derecha"
+  },
+  "subject": {
+    "reference": "Patient/HC-2024-001"
+  },
+  "effectiveDateTime": "2024-03-11",
+  "bodySite": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "6757004",
+        "display": "Rodilla derecha"
+      }
+    ]
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "36588-1",
+            "display": "Flexion of Knee"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 115,
+        "unit": "degrees",
+        "system": "http://unitsofmeasure.org",
+        "code": "deg"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "36591-5",
+            "display": "Extension of Knee"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 0,
+        "unit": "degrees",
+        "system": "http://unitsofmeasure.org",
+        "code": "deg"
+      }
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "Procedure/cirugia-lca-juan-2024"
+    }
+  ]
+}
