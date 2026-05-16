@@ -1,0 +1,49 @@
+{
+  "resourceType": "Observation",
+  "id": "perimetro-rodilla-semana8-juan",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "exam"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8287-5",
+        "display": "Circumference of Knee"
+      }
+    ],
+    "text": "Perímetro de rodilla"
+  },
+  "subject": {
+    "reference": "Patient/HC-2024-001"
+  },
+  "effectiveDateTime": "2024-03-11",
+  "valueQuantity": {
+    "value": 38,
+    "unit": "cm",
+    "system": "http://unitsofmeasure.org",
+    "code": "cm"
+  },
+  "bodySite": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "6757004",
+        "display": "Rodilla derecha"
+      }
+    ]
+  },
+  "note": [
+    {
+      "text": "Medido 1 cm por encima de la rótula"
+    }
+  ]
+}
