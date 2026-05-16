@@ -1,8 +1,5 @@
-paciente
-
 {
   "resourceType": "Patient",
-  "id": "HC-2024-001",
   "identifier": [
     {
       "system": "http://hospital.es/historias-clinicas",
