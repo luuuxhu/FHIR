@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "perimetro-rodilla-semana8-juan",
+  "id": "perimetro-rodilla-semana8-javier",
   "status": "final",
   "category": [
     {
@@ -15,8 +15,8 @@
   "code": {
     "coding": [
       {
-        "system": "http://loinc.org",
-        "code": "8287-5",
+        "system": "http://snomed.info/sct",
+        "code": "715832000",
         "display": "Circumference of Knee"
       }
     ],
