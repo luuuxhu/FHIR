@@ -1,6 +1,6 @@
 {
   "resourceType": "Encounter",
-  "id": "sesion-rehab-semana8-juan",
+  "id": "sesion-rehab-semana8-javier",
   "status": "finished",
   "class": {
     "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
