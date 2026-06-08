@@ -1,6 +1,6 @@
 {
   "resourceType": "Procedure",
-  "id": "cirugia-lca-juan-2024",
+  "id": "cirugia-lca-javier-2024",
   "status": "completed",
   "subject": {
     "reference": "Patient/HC-2024-001"
@@ -9,8 +9,8 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "444798002",
-        "display": "Reconstrucción ligamento cruzado anterior"
+        "code": "444798001",
+        "display": "Lesión traumática del ligamento cruzado anterior"
       }
     ]
   },
