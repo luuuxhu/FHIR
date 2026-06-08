@@ -2,7 +2,7 @@ Observation (EVA dolor, sesión semana 8 — 11 marzo 2024)
 
 {
   "resourceType": "Observation",
-  "id": "eva-dolor-semana8-juan",
+  "id": "eva-dolor-semana8-javier",
   "status": "final",
   "category": [
     {
@@ -18,8 +18,8 @@ Observation (EVA dolor, sesión semana 8 — 11 marzo 2024)
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "38208-5",
-        "display": "Pain severity - Reported"
+        "code": "445719003",
+        "display": "evaluación con escala visual analógica de dolor (procedimiento)"
       }
     ]
   },
@@ -35,7 +35,7 @@ Observation (EVA dolor, sesión semana 8 — 11 marzo 2024)
   },
   "derivedFrom": [
     {
-      "reference": "Procedure/cirugia-lca-juan-2024"
+      "reference": "Procedure/cirugia-lca-javier-2024"
     }
   ]
 }
