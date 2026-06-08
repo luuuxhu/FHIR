@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "rom-rodilla-semana8-juan",
+  "id": "rom-rodilla-semana8-javier",
   "status": "final",
   "category": [
     {
@@ -21,7 +21,7 @@
         "display": "Range of motion of Joint"
       }
     ],
-    "text": "Rango de movimiento rodilla derecha"
+    "text": "Flexión activa de rodilla"
   },
   "subject": {
     "reference": "Patient/HC-2024-001"
@@ -42,7 +42,7 @@
         "coding": [
           {
             "system": "http://loinc.org",
-            "code": "36588-1",
+            "code": "41379-9",
             "display": "Flexion of Knee"
           }
         ]
@@ -59,7 +59,7 @@
         "coding": [
           {
             "system": "http://loinc.org",
-            "code": "36591-5",
+            "code": "41377-3",
             "display": "Extension of Knee"
           }
         ]
@@ -74,7 +74,7 @@
   ],
   "derivedFrom": [
     {
-      "reference": "Procedure/cirugia-lca-juan-2024"
+      "reference": "Procedure/cirugia-lca-javier-2024"
     }
   ]
 }
